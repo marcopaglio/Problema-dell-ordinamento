@@ -1,0 +1,32 @@
+Tempi di esecuzione di SelectionSort su vettori già ordinati:
+1- {10: Decimal('0.00002765'), 100: Decimal('0.0001584'), 1000: Decimal('0.001626'), 10000: Decimal('0.01853'), 100000: Decimal('0.1669'), 1000000: Decimal('1.632'), 10000000: Decimal('15.76'), 100000000: Decimal('25.01')}
+Insertion Sort ha impiegato 15.76 secondi per ordinare un vettore di 10000000 elementi nel caso migliore.
+2- {10: Decimal('0.00003793'), 100: Decimal('0.0002939'), 1000: Decimal('0.002984'), 10000: Decimal('0.02289'), 100000: Decimal('0.2173'), 1000000: Decimal('1.763'), 10000000: Decimal('16.20'), 100000000: Decimal('25.01')}
+Insertion Sort ha impiegato 16.20 secondi per ordinare un vettore di 10000000 elementi nel caso migliore.
+3- {10: Decimal('0.00003240'), 100: Decimal('0.0002675'), 1000: Decimal('0.002748'), 10000: Decimal('0.01946'), 100000: Decimal('0.1571'), 1000000: Decimal('1.606'), 10000000: Decimal('15.62'), 100000000: Decimal('25.01')}
+Insertion Sort ha impiegato 15.62 secondi per ordinare un vettore di 10000000 elementi nel caso migliore.
+4- {10: Decimal('0.00002212'), 100: Decimal('0.0001632'), 1000: Decimal('0.001634'), 10000: Decimal('0.01618'), 100000: Decimal('0.1719'), 1000000: Decimal('1.545'), 10000000: Decimal('15.78'), 100000000: Decimal('25.01')}
+Insertion Sort ha impiegato 15.78 secondi per ordinare un vettore di 10000000 elementi nel caso migliore.
+:> Tempi medi registrati con vettore ordinato:  [Decimal('0.00003002'), Decimal('0.0002208'), Decimal('0.002248'), Decimal('0.01926'), Decimal('0.1783'), Decimal('1.636'), Decimal('15.84')]
+
+Tempi di esecuzione di SelectionSort su vettori ordinati al contrario:
+1- {10: Decimal('0.00002923'), 100: Decimal('0.0007941'), 1000: Decimal('0.1002'), 10000: Decimal('7.437'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 7.437 secondi per ordinare un vettore di 10000 elementi nel caso peggiore.
+2- {10: Decimal('0.00003872'), 100: Decimal('0.0007672'), 1000: Decimal('0.07099'), 10000: Decimal('7.522'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 7.522 secondi per ordinare un vettore di 10000 elementi nel caso peggiore.
+3- {10: Decimal('0.00002647'), 100: Decimal('0.0007838'), 1000: Decimal('0.07094'), 10000: Decimal('7.437'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 7.437 secondi per ordinare un vettore di 10000 elementi nel caso peggiore.
+4- {10: Decimal('0.00003872'), 100: Decimal('0.0007727'), 1000: Decimal('0.07081'), 10000: Decimal('7.421'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 7.421 secondi per ordinare un vettore di 10000 elementi nel caso peggiore.
+:> Tempi medi registrati con vettore ordinato al contrario:  [Decimal('0.00003328'), Decimal('0.0007795'), Decimal('0.07822'), Decimal('7.455')]
+
+Tempi di esecuzione di SelectionSort su vettori di elementi casuali:
+1- {10: Decimal('0.00002212'), 100: Decimal('0.0004614'), 1000: Decimal('0.03758'), 10000: Decimal('3.721'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 3.721 secondi per ordinare un vettore di 10000 elementi casuali.
+2- {10: Decimal('0.00002252'), 100: Decimal('0.0004760'), 1000: Decimal('0.03712'), 10000: Decimal('3.767'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 3.767 secondi per ordinare un vettore di 10000 elementi casuali.
+3- {10: Decimal('0.00003832'), 100: Decimal('0.0008664'), 1000: Decimal('0.04612'), 10000: Decimal('4.243'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 4.243 secondi per ordinare un vettore di 10000 elementi casuali.
+4- {10: Decimal('0.00002449'), 100: Decimal('0.0004697'), 1000: Decimal('0.03774'), 10000: Decimal('3.817'), 100000: Decimal('25.01')}
+Insertion Sort ha impiegato 3.817 secondi per ordinare un vettore di 10000 elementi casuali.
+:> Tempi medi registrati con vettore ordinato al contrario:  [Decimal('0.00002685'), Decimal('0.0005685'), Decimal('0.03962'), Decimal('3.888')]

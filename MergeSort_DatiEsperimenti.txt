@@ -1,0 +1,32 @@
+Tempi di esecuzione di MergeSort su vettori già ordinati:
+1- {10: Decimal('0.00007664'), 100: Decimal('0.0006017'), 1000: Decimal('0.006997'), 10000: Decimal('0.07811'), 100000: Decimal('0.8778'), 1000000: Decimal('9.920'), 10000000: Decimal('26.44')}
+Merge Sort ha impiegato 9.920 secondi per ordinare un vettore di 1000000 elementi già ordinato.
+2- {10: Decimal('0.00006519'), 100: Decimal('0.0006123'), 1000: Decimal('0.007053'), 10000: Decimal('0.07820'), 100000: Decimal('0.8413'), 1000000: Decimal('9.297'), 10000000: Decimal('26.56')}
+Merge Sort ha impiegato 9.297 secondi per ordinare un vettore di 1000000 elementi già ordinato.
+3- {10: Decimal('0.00006598'), 100: Decimal('0.0006104'), 1000: Decimal('0.007401'), 10000: Decimal('0.07714'), 100000: Decimal('0.8598'), 1000000: Decimal('11.04'), 10000000: Decimal('26.45')}
+Merge Sort ha impiegato 11.04 secondi per ordinare un vettore di 1000000 elementi già ordinato.
+4- {10: Decimal('0.00006558'), 100: Decimal('0.0006084'), 1000: Decimal('0.006862'), 10000: Decimal('0.07708'), 100000: Decimal('0.8425'), 1000000: Decimal('9.211'), 10000000: Decimal('26.44')}
+Merge Sort ha impiegato 9.211 secondi per ordinare un vettore di 1000000 elementi già ordinato.
+:> Tempi medi registrati con vettore ordinato:  [Decimal('0.00006835'), Decimal('0.000608'), Decimal('0.007078'), Decimal('0.07762'), Decimal('0.8555'), Decimal('9.868')]
+
+Tempi di esecuzione di MergeSort su vettori ordinati al contrario:
+1- {10: Decimal('0.00009679'), 100: Decimal('0.0009999'), 1000: Decimal('0.01038'), 10000: Decimal('0.07486'), 100000: Decimal('0.8336'), 1000000: Decimal('9.115'), 10000000: Decimal('26.45')}
+Merge Sort ha impiegato 9.115 secondi per ordinare un vettore di 1000000 elementi ordinati al contrario.
+2- {10: Decimal('0.00006479'), 100: Decimal('0.0006005'), 1000: Decimal('0.006832'), 10000: Decimal('0.07445'), 100000: Decimal('0.8282'), 1000000: Decimal('9.168'), 10000000: Decimal('26.44')}
+Merge Sort ha impiegato 9.168 secondi per ordinare un vettore di 1000000 elementi ordinati al contrario.
+3- {10: Decimal('0.00006479'), 100: Decimal('0.0006005'), 1000: Decimal('0.006910'), 10000: Decimal('0.07452'), 100000: Decimal('0.8305'), 1000000: Decimal('9.139'), 10000000: Decimal('26.44')}
+Merge Sort ha impiegato 9.139 secondi per ordinare un vettore di 1000000 elementi ordinati al contrario.
+4- {10: Decimal('0.00006400'), 100: Decimal('0.0006040'), 1000: Decimal('0.006905'), 10000: Decimal('0.07680'), 100000: Decimal('0.8277'), 1000000: Decimal('9.216'), 10000000: Decimal('26.45')}
+Merge Sort ha impiegato 9.216 secondi per ordinare un vettore di 1000000 elementi ordinati al contrario.
+:> Tempi medi registrati con vettore ordinato al contrario:  [Decimal('0.0000726'), Decimal('0.000701'), Decimal('0.007755'), Decimal('0.07515'), Decimal('0.830'), Decimal('9.16')]
+
+Tempi di esecuzione di MergeSort su vettori di elementi casuali:
+1- {10: Decimal('0.00006677'), 100: Decimal('0.0006455'), 1000: Decimal('0.007845'), 10000: Decimal('0.08828'), 100000: Decimal('0.9982'), 1000000: Decimal('11.83'), 10000000: Decimal('26.98')}
+Merge Sort ha impiegato 11.83 secondi per ordinare un vettore di 1000000 elementi casuali.
+2- {10: Decimal('0.00006716'), 100: Decimal('0.0006483'), 1000: Decimal('0.007696'), 10000: Decimal('0.08827'), 100000: Decimal('0.9887'), 1000000: Decimal('11.58'), 10000000: Decimal('26.97')}
+Merge Sort ha impiegato 11.58 secondi per ordinare un vettore di 1000000 elementi casuali.
+3- {10: Decimal('0.00006716'), 100: Decimal('0.0006538'), 1000: Decimal('0.007581'), 10000: Decimal('0.08558'), 100000: Decimal('0.9791'), 1000000: Decimal('11.60'), 10000000: Decimal('26.82')}
+Merge Sort ha impiegato 11.60 secondi per ordinare un vettore di 1000000 elementi casuali.
+4- {10: Decimal('0.00006637'), 100: Decimal('0.0006400'), 1000: Decimal('0.007701'), 10000: Decimal('0.08624'), 100000: Decimal('0.9858'), 1000000: Decimal('11.59'), 10000000: Decimal('27.00')}
+Merge Sort ha impiegato 11.59 secondi per ordinare un vettore di 1000000 elementi casuali.
+:> Tempi medi registrati con vettore casuale:  [Decimal('0.00006688'), Decimal('0.000647'), Decimal('0.007705'), Decimal('0.0871'), Decimal('0.988'), Decimal('11.65')]
